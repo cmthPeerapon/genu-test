@@ -2,7 +2,7 @@ name: Release Version
 
 on:
   push:
-    tags: [ 'v*.*.*-*', 'trial/v*.*.*-*' ]
+    tags: [ 'v*.*.*-*', 'trial/v*.*.*' ]
 
 jobs:
   release-version:
